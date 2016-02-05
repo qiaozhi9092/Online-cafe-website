@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Zhi's cafe order form</title>
+  <link rel= "stylesheet" href="stylecafe.css" />
+
+  <meta name="authors" content= "Zhi Qiao" />
+  <meta name="description" content= "Order form" />
+  <meta name="keywords" content= "ucla, business, PIC40a" />
+  <meta name="copyright" content= "Copyright 2014 Zhi Qiao, All Rights Reserved" />
+</head>
+
+
+<body>
+
+  <div id="main">
+
+
+    <div id="BusinessName">
+      <h1> Order Form </h1>
+    </div>
+
+    <div id="sidebar">
+      <form action="" method="get">
+        <fieldset>
+          <legend>Customer Information:</legend>
+          Name: <input type="text" name="name" /><br/>
+          Street: <input type="text" name="street" /><br/>
+          City: <input type="text" name="city" /><br/>
+          State: <input type="text" name="state" /><br/>
+          Zip Code: <input type="text" name="zip" /><br/>
+        </fieldset>
+      </form>
+    </div>
+
+
+
+    <div id="content">
+        <form action="" method="get">
+          <fieldset>
+            <legend>Order Information:</legend>
+
+            How did you know my cafe?<br/>
+            <input type="radio" name="how" value="commerical"/>Commerical
+            <input type="radio" name="how" value="magazine"/>Magazine Ad
+            <input type="radio" name="how" value="other"/>Other<br/>
+            <input type="checkbox" name="newsletter" value="email"/>Send me emails about future events.<br/>
+
+            <table id="table" border="1">
+              <caption>Product List</caption>
+              <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+              <tr>
+               <td>Chicken sandwich &trade;</td>
+               <td>Chicken with avocado</td>
+               <td>6$ 99&cent;</td>
+               <td><input type="text" name="rca" /></td>
+             </tr>
+             <tr>
+               <td>Beef wraps &trade;</td>
+               <td>Comes with fries</td>
+               <td>5$ 99&cent;</td> 
+               <td><input type="text" name="madone" /> </td>
+             </tr>
+             <tr>
+               <td>Soup of the day &trade;</td>
+               <td>Onion/tomato/mushroom </td>
+               <td>4$ 99&cent;</td>
+               <td><input type="text" name="ar2" /></td>
+             </tr>
+             <tr>
+               <td>Veggie burger &trade;</td>
+               <td>Comes with fries</td>
+               <td>6$ 99&cent;</td>
+               <td><input type="text" name="caad" /></td>
+             </tr>
+             <tr>
+               <td>Switzerland hot chocolate &trade;</td>
+               <td>Comes with a french toast</td>
+               <td>3$ 99&cent;</td>
+               <td><input type="text" name="linus" /></td>
+             </tr>
+           </table>
+           <br/>
+           Select a credit card
+           <select>
+            <option value="amex">American Express</option>
+            <option value="visa">Visa</option>
+            <option value="master">Master</option>
+          </select>
+          <br/>
+
+          Credit Card Number:
+          <input type="password" name="creditcardnumber"/>  
+        </fieldset>
+
+        <fieldset>
+          <legend>Confirmation</legend>
+          <input type="reset"/>
+          <input type="submit" value="Send" />
+        </fieldset>
+
+      </form>
+  </div>
+  <div id="footer">
+    <p><a href="cafe.html">Return to home page</a></p>
+
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer"><img
+       src="http://www.w3.org/Icons/valid-xhtml11"
+       alt="Valid XHTML 1.1" height="31" width="88" /></a>
+       <a href="http://jigsaw.w3.org/css-validator/">
+         <img style="border:0;width:88px;height:31px"
+         src="http://jigsaw.w3.org/css-validator/images/vcss" 
+         alt="Valid CSS!" />
+       </a>
+
+     </p>
+   </div>
+
+
+ </div>
+</body>
+</html>
